@@ -1,0 +1,45 @@
+
+
+/* ContactUs.css */
+body {
+  font-family: Papyrus, fantasy;
+
+    margin: 0;
+    padding: 0;
+    /* background-image: url("backs.webp"); */
+    background-size: cover;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 50px 0px 0px 100px;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .contact-title {
+    font-size: 2em;
+    color: #ff6600;
+  }
+  
+  .contact-description {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .contact-subtitle {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
+  .contact-info {
+    font-size: 1.1em;
+    margin: 5px 0;
+  }
+  
+  .contact-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
