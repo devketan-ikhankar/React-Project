@@ -75,12 +75,12 @@ body {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #ff5722;
+  background-color: #22fbff;
   transition: width 0.3s ease;
 }
 
 #links a:hover {
-  color: #ff5722;
+  color: #22fbff;
 }
 
 #links a:hover::after {
@@ -88,7 +88,7 @@ body {
 }
 
 #login {
-  background-color: #ff5722;
+  background-color: #22fbff;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -101,7 +101,7 @@ body {
 }
 
 #login:hover {
-  background-color: #e64a19;
+  background-color: #22fbff;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(255, 87, 34, 0.4);
 }
@@ -128,7 +128,7 @@ body {
 }
 
 .cart-link:hover #cart {
-  color: #ff5722;
+  color: #22fbff;
 }
 
 .cart-count {
@@ -138,7 +138,7 @@ body {
   position: absolute;
   top: -8px;
   right: -10px;
-  background-color: #ff5722;
+  background-color: #22fbff;
   color: white;
   border-radius: 50%;
   width: 20px;
@@ -160,8 +160,8 @@ body {
 }
 
 .search-container:focus-within {
-  box-shadow: 0 0 0 2px rgba(255, 87, 34, 0.2);
-  border-color: #ff5722;
+  box-shadow: 0 0 0 2px rgba(3, 3, 3, 0.2);
+  border-color: #0b0b0b;
   background-color: white;
 }
 
@@ -176,7 +176,7 @@ body {
 }
 
 #btn {
-  background-color: #ff5722;
+  background-color: #22fbff;
   color: white;
   border: none;
   width: 36px;
@@ -190,7 +190,7 @@ body {
 }
 
 #btn:hover {
-  background-color: #e64a19;
+  background-color: #22fbff;
   transform: scale(1.05);
 }
 
@@ -216,7 +216,7 @@ body {
 }
 
 #filter button:hover {
-  background-color: #ff5722;
+  background-color: #22fbff;
   color: white;
   transform: translateY(-3px);
   box-shadow: 0 4px 12px rgba(255, 87, 34, 0.3);

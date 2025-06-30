@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../ImgLogo/swiggy-logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -24,11 +23,7 @@ const PremiumFooter = () => {
         {/* Brand & Contact Section */}
         <div className="footer-brand-section">
           <div className="logo-container">
-            <img
-              src={logo}
-              alt="FoodExpress Logo"
-              className="footer-logo"
-            />
+          
             <span className="brand-name">FoodExpress</span>
           </div>
           

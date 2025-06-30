@@ -2,7 +2,7 @@ import "./App.css";
 import { Link, useLocation, useNavigate } from "react-router"; // Fixed import
 import SearchBar from "./SearchBar";
 import React, { useContext } from "react";
-import logo from "../ImgLogo/swiggy-logo.svg";
+
 import { UserContext } from "../Links/userContext";
 import useOnlineStatus from "./useOnlineStatus";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -28,14 +28,14 @@ function Header({ filteredData, setFilteredData, setnewFData }) {
   return (
     <div>
       <div id="navbar">
-        <img src={logo} alt="logo" id="logo" />
+      <span>FoodExpress</span>
         <SearchBar
           filteredData={filteredData}
           setFilteredData={setFilteredData}
           setnewFData={setnewFData}
         />
         <div id="links">
-          <span>Online Status: {onlineStatus ? "✔️ Online" : "❌ Offline"}</span>
+          <span>Online Status: {onlineStatus ? "✅ Online" : "❌ Offline"}</span>
 
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
