@@ -3,7 +3,7 @@ import { Link, useLocation, useNavigate } from "react-router"; // Fixed import
 import SearchBar from "./SearchBar";
 import React, { useContext } from "react";
 
-import { UserContext } from "../Links/userContext";
+import { UserContext } from "../Links/UserContext";
 import useOnlineStatus from "./useOnlineStatus";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
