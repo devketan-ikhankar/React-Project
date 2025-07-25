@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import Header from "../Container/Header";
 import "./LoginComponent.css";
-import { UserContext } from "./userContext";
+import { UserContext } from "./UserContext";
 import { Link, useNavigate } from "react-router"; // Fixed import
 import axios from "axios";
 
